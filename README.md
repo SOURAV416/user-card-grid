@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# User Card Grid Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple web application that displays user information in a card grid layout. It retrieves user data from an API and renders it in the UI. The application is built using React and utilizes the create-react-app boilerplate.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User card grid layout with a navbar displaying the brand name "Tech Sourav".
+- "Get Users" button in the navbar to fetch user data from an API.
+- Loader displayed while the API fetches data.
+- Custom styling using CSS-in-JS with styled components.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```shell
+   git clone https://github.com/SOURAV416/user-card-grid.git
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
+   
+   ```shell
+   cd user-card-grid
+   
+   
+3. Install the dependencies:
+   
+   ```shell
+   npm install
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Start the development server:
+   
+   ```shell
+   npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Open your web browser and visit http://localhost:3000 to view the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Click the "Get Users" button in the navbar to fetch user data from the API and display it in the UI. While the data is being fetched, a loader will be displayed to indicate the loading state.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## API Integration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application integrates with the following API endpoint to fetch user data:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Endpoint: https://reqres.in/api/users?page=1
+- Method: GET
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+When the "Get Users" button is clicked, an API call is made to the above endpoint to retrieve user data. The application uses the axios library to handle the HTTP request. Upon receiving the response, the user data is displayed in the UI.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Loader
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+While the API is fetching the user data, a loader is displayed to provide visual feedback to the user. The loader is a GIF image(../src/assets/loder.gif) displayed on the place of "Get User" button. It shows a custom loader animation to indicate that the data is being fetched.
 
-### Code Splitting
+To customize the loader animation. Replace the src/assets/loader.gif file with your own GIF file. Make sure the file is named loader.gif.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If an error occurs during the API call, an error message will be logged to the console, and the loader will disappear.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Favicon
+The application uses a favicon, which is the small icon displayed in the browser tab. The favicon can be customized to match your brand or application. To replace the default favicon:
 
-### Making a Progressive Web App
+Replace the public/favicon.ico file with your own favicon file. The favicon file should be in .ico format.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Hosting on GitHub
+Successfully hosted on Github. Link: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
