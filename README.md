@@ -69,6 +69,10 @@ Successfully hosted on Netlify.
 Link: https://sourav-user-card-grid.netlify.app/
 
 
+## Time 
+The time taken to complete this assignment is 1 day.
+
+
 
 
 
