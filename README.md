@@ -1,7 +1,6 @@
 # User Card Grid Web Application
 
-This is a simple web application that displays user information in a card grid layout. It retrieves user data from an API and renders it in the UI. The application is built using React and utilizes the create-react-app boilerplate.
-
+This is a simple web application that displays user information in a card grid layout. It retrieves user data from an API and renders it in the UI. The application is built using React.
 ## Features
 
 - User card grid layout with a navbar displaying the brand name "Tech Sourav".
@@ -65,8 +64,9 @@ The application uses a favicon, which is the small icon displayed in the browser
 Replace the public/favicon.ico file with your own favicon file. The favicon file should be in .ico format.
 
 
-## Hosting on GitHub
-Successfully hosted on Github. Link: 
+## Hosting on Netlify
+Successfully hosted on Netlify. 
+Link: https://sourav-user-card-grid.netlify.app/
 
 
 
