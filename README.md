@@ -64,7 +64,7 @@ The application uses a favicon, which is the small icon displayed in the browser
 Replace the public/favicon.ico file with your own favicon file. The favicon file should be in .ico format.
 
 
-## Hosting on Netlify
+## Hosted on Netlify
 Successfully hosted on Netlify. 
 Link: https://sourav-user-card-grid.netlify.app/
 
